@@ -14,9 +14,6 @@ body {
 
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
-    .headline-scroll span {
-            font-size: 3rem; /* Reduz tamanho em dispositivos menores */
-        }
 
     .container {
         padding: 0;
