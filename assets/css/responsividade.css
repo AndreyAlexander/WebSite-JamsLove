@@ -1,6 +1,9 @@
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
-
+    div{
+        width: 900px;
+    }
+}
     .container {
         padding: 0;
     }
