@@ -181,3 +181,25 @@ body {
         margin-top: 0;
     }
 }
+
+html, body {
+    overflow-x: hidden; /* Remove o scroll horizontal */
+    width: 100%; /* Garante que a largura do body não ultrapasse 100% */
+    margin: 0; /* Remove margens padrões */
+    padding: 0; /* Remove o padding padrões */
+}
+
+* {
+    max-width: 100%; /* Garante que todos os elementos não ultrapassem 100% da largura da tela */
+    box-sizing: border-box; /* Impede que o padding e a borda aumentem a largura total */
+}
+
+img, video {
+    max-width: 100%; /* Garante que imagens e vídeos não ultrapassem a largura do container */
+    height: auto; /* Garante que a altura seja proporcional */
+}
+
+.conteudo-sobre, .container-portfolio, .headline-servicos, .headline-portfolio {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens "quebrem" para uma nova linha se necessário */
+}
