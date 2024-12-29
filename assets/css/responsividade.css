@@ -203,3 +203,20 @@ img, video {
     display: flex;
     flex-wrap: wrap; /* Permite que os itens "quebrem" para uma nova linha se necessário */
 }
+
+@media (max-width: 768px) {
+    .headline-sobre {
+        height: 15%; /* Ajuste de altura para dispositivos menores */
+        position: relative; /* Corrige posicionamento */
+        overflow: hidden; /* Mantém o conteúdo visível apenas dentro */
+    }
+
+    .headline-scroll {
+        animation: scroll 15s linear infinite; /* Ajusta a velocidade da animação */
+        width: 200%; /* Garante que o conteúdo percorra completamente */
+    }
+
+    .headline-scroll span {
+        font-size: 3rem; /* Reduz tamanho da fonte */
+    }
+}
