@@ -184,13 +184,13 @@ body {
 
 html, body {
     overflow-x: hidden; /* Remove o scroll horizontal */
-    width: 110%; /* Garante que a largura do body não ultrapasse 100% */
+    width: 100%; /* Garante que a largura do body não ultrapasse 100% */
     margin: 0; /* Remove margens padrões */
     padding: 0; /* Remove o padding padrões */
 }
 
 * {
-    max-width: 110%; /* Garante que todos os elementos não ultrapassem 100% da largura da tela */
+    max-width: 100%; /* Garante que todos os elementos não ultrapassem 100% da largura da tela */
     box-sizing: border-box; /* Impede que o padding e a borda aumentem a largura total */
 }
 
