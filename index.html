@@ -370,12 +370,16 @@
                         <h2>Entre em contato</h2>
                         <p>Quer levar a batida do amor e a alma da música para o seu evento?</p>
                         <p>A banda Jam's Love está disponível para shows, festivais, eventos privados, entrevistas e parcerias. Vamos juntos criar momentos inesquecíveis! 🎸✨</p>
-                        <form class="form">
-                            <input type="text" placeholder="Digite seu nome completo">
-                            <input type="phone" placeholder="(99) 99999-9999">
-                            <input type="email" placeholder="Seu melhor email">
-                            <textarea name="mensagem" id="mensagem" placeholder="Escreva o que você deseja aqui..."></textarea>
-                            <button class="btn">Enviar</button>
+                        <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+                            <input type="text" name="name" placeholder="Digite seu nome completo" autocomplete="off" required>
+                            <input type="tel" name="phone" placeholder="(99) 99999-9999" autocomplete="off" required>
+                            <input type="email" name="email" placeholder="Seu melhor email" autocomplete="off" required >
+                            <textarea name="message" id="mensagem" placeholder="Escreva o que você deseja aqui..." autocomplete="off" required></textarea>
+                            <button class="btn" type="submit">Enviar</button>
+
+                            <input type="hidden" name="accessKey" value="d0b84b9f-b648-447f-b2a6-f8cf7fcd24b1">
+                            <input type="hidden" name="subject" value="Novo contato do site Jam's Love">
+                            <input type="hidden" name="redirectTo" value="https://andreyalexander.github.io/WebSite-JamsLove/?mensagem=#inicio">
                         </form>
                     </div>
                     <div class="logo-contato" data-aos="fade-up" data-aos-delay="600">
