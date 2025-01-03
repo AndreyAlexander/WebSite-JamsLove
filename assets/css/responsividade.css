@@ -146,9 +146,10 @@ body {
     }
 
     .descricao-contato {
-        width: 100%;
-        text-align: right;
-        font-size: 1.4rem;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: normal;
+        word-break: break-word;
     }
 
     .descricao-contato a {
