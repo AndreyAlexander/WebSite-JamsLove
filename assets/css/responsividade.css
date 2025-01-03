@@ -147,8 +147,8 @@ body {
 
     .descricao-contato {
         text-align: center;
-        font-size: 1.2rem;
-        line-height: normal;
+        font-size: 1.4rem;
+        line-height: 1.4;
         word-break: break-word;
     }
 
