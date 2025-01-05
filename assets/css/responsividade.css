@@ -203,3 +203,23 @@ img, video {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+    .case1, .case2, .case3, .case4 {
+        flex-direction: column; /* Garante que os elementos dentro de cada case sejam empilhados */
+        gap: 1rem; /* Ajusta o espaçamento entre os elementos */
+    }
+
+    .imagens-case, .textos-case {
+        width: 100%; /* Garante que as imagens e textos ocupem 100% da largura */
+    }
+
+    .textos-case h1 {
+        font-size: 2rem; /* Ajusta o tamanho da fonte para telas menores */
+    }
+
+    .textos-case p {
+        font-size: 1rem; /* Ajusta o tamanho do parágrafo para telas menores */
+    }
+}
