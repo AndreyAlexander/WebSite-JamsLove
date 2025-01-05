@@ -1222,3 +1222,25 @@ a {
 .credits-column p {
     margin: 0.2rem 0;
 }
+
+/* Container das cases */
+.container-case {
+    display: flex;
+    flex-direction: column; /* Empilha as cases verticalmente em telas menores */
+    gap: 2rem; /* Espaçamento entre as cases */
+}
+
+/* Ajustes para cada case */
+.case1, .case2, .case3, .case4 {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos dentro de cada case */
+    width: 100%; /* Garante que cada case ocupe 100% da largura */
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+}
+
+/* Ajustes para textos dentro das cases */
+.textos-case {
+    width: 100%; /* Garante que o texto ocupe toda a largura disponível */
+    padding: 1rem; /* Adiciona um padding para evitar sobreposição */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
