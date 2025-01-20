@@ -256,3 +256,9 @@ img, video {
     }
 }
 
+@media (max-width: 768px) { /* Para dispositivos móveis */
+    .contato h1 {
+        text-align: center; /* Centraliza horizontalmente */
+        margin-top: 40vh; /* Centraliza verticalmente, ajuste conforme necessário */
+    }
+}
