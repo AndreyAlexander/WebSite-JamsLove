@@ -129,7 +129,6 @@ body {
     .contato {
         padding: 0rem 1rem 2rem 1rem;
         height: auto;
-        position: relative;
     }
 
     .container-contato {
@@ -254,16 +253,5 @@ img, video {
 @media (max-width: 768px) {
     .headline-scroll span {
         font-size: 2rem; /* Ajuste o tamanho da fonte para telas menores */
-    }
-}
-
-/*Contato h1 - teste*/
-@media (max-width: 768px) { /* Para dispositivos móveis */
-    .contato h1 {
-        position: absolute; /* Define uma posição absoluta */
-        top: 50%; /* Centraliza verticalmente */
-        left: 50%; /* Centraliza horizontalmente */
-        transform: translate(-50%, -50%); /* Ajusta o ponto de referência */
-        text-align: center; /* Alinha o texto ao centro */
     }
 }
