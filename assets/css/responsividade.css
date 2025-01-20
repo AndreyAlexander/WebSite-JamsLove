@@ -223,3 +223,24 @@ img, video {
         font-size: 1rem; /* Ajusta o tamanho do parágrafo para telas menores */
     }
 }
+
+/*Teste Novo código */
+.headline-scroll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.headline-scroll span {
+    margin: 0 5px; /* Ajuste o valor conforme necessário */
+    font-size: 3rem; /* Tamanho da fonte padrão */
+}
+
+@media (max-width: 768px) {
+    .headline-scroll span {
+        font-size: 2rem; /* Ajuste o tamanho da fonte para telas menores */
+    }
+}
+
