@@ -227,17 +227,27 @@ img, video {
 /*Teste Novo código */
 .headline-scroll {
     display: flex;
-    flex-wrap: nowrap; /* Impede que os itens quebrem para a próxima linha */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Centraliza os itens verticalmente */
-    gap: 20px; /* Ajusta o espaçamento entre os itens */
+    flex-wrap: nowrap; /* Impede quebra de linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 2rem; /* Define espaçamento fixo entre os itens */
+    overflow: hidden; /* Evita que itens excedam os limites do contêiner */
 }
 
 .headline-scroll span {
-    margin: 0; /* Remove qualquer margem adicional */
-    font-size: 3rem; /* Mantém o tamanho da fonte */
-    display: inline-block; /* Garante que cada texto seja tratado como um bloco na linha */
-    white-space: nowrap; /* Impede quebra de linha nos textos */
+    display: inline-block;
+    margin: 0;
+    font-size: 3rem; /* Ajuste o tamanho conforme necessário */
+    font-weight: bold; /* Mantém o destaque no texto "JAM'S" */
+    white-space: nowrap; /* Evita quebra de linha */
+    text-align: center; /* Centraliza o texto dentro do span */
+}
+
+.headline-scroll .dot {
+    width: 10px; /* Define o tamanho do ponto */
+    height: 10px; /* Define o tamanho do ponto */
+    background-color: #ccc; /* Cor do ponto */
+    border-radius: 50%; /* Torna o ponto redondo */
 }
 
 @media (max-width: 768px) {
