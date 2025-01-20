@@ -227,15 +227,17 @@ img, video {
 /*Teste Novo código */
 .headline-scroll {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
-    justify-content: center; /* Centraliza os itens */
-    gap: 10px; /* Espaçamento entre os itens */
+    flex-wrap: nowrap; /* Impede que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 20px; /* Ajusta o espaçamento entre os itens */
 }
 
 .headline-scroll span {
-    margin: 0 5px; /* Ajuste o valor conforme necessário */
-    font-size: 3rem; /* Tamanho da fonte padrão */
+    margin: 0; /* Remove qualquer margem adicional */
+    font-size: 3rem; /* Mantém o tamanho da fonte */
+    display: inline-block; /* Garante que cada texto seja tratado como um bloco na linha */
+    white-space: nowrap; /* Impede quebra de linha nos textos */
 }
 
 @media (max-width: 768px) {
